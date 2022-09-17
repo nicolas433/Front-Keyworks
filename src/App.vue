@@ -7,6 +7,7 @@
           class="collumn"
           v-for="(cardGroup, index) in draggableList"
           :key="index"
+          style="padding: 0px"
         >
           <div class="collumn-header">
             <v-row justify="space-between" align="center">
